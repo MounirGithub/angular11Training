@@ -1,0 +1,15 @@
+<p>product works! {{p_title}}</p>
+  <!-- <div *ngFor='let v of rNum | paginate: {itemsPerPage: itemsTodisp, currentPage :page}'>
+         {{v}}
+  </div>
+  <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls> -->
+
+  <label>Add product <input #newProduct></label>
+  <button (click)="addProduct(newProduct.value)">add new product</button>
+
+  <div *ngFor="let todo of todos">
+  <div>UserId : {{todo.userID}}</div>
+  <div>ID : {{todo.id}}</div>
+  <div>title : {{todo.title}}</div>
+  <div>completed : {{todo.completed}}</div>
+  </div>

@@ -1,0 +1,20 @@
+{
+  "customers": [
+    {
+      "customerName": "mnr",
+      "email": "sdv",
+      "password": "ererger",
+      "id": 2
+    },
+    {
+      "customerName": "mnr",
+      "id": 3
+    },
+    {
+      "customerName": "mnr",
+      "email": "vsd",
+      "password": "zzzeeeez",
+      "id": 4
+    }
+  ]
+}

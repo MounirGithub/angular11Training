@@ -1,0 +1,18 @@
+<div>
+    <p>form-comp works!</p>
+    <form #customerForm="ngForm" (ngSubmit)="onSubmit(customerForm)">
+        
+        <label>text</label>
+        <input type="text" [(ngModel)]="customerName" name="customerName">
+        
+        <label>email</label>
+        <input type="text" [(ngModel)]="email" name="email">
+        
+        <label>Password</label>
+        <input type="password" [(ngModel)]="password" name="password">
+
+        <input type="submit" [disabled]="!customerForm.form.valid">
+        <!-- <input type="submit" value="Delete" (click) = "deleteDocument()"> -->
+    </form>
+</div>
+
